@@ -92,6 +92,7 @@ sudo apt-get update
 ./packages/dropbox.sh
 # ./packages/skype.sh
 ./packages/quicktile.sh
+./packages/docker.sh
 
 # TODO:
 # Sync chromium and firefox.
@@ -108,4 +109,7 @@ sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install
 cp .zshrc ${HOME}/.zshrc
 
 # To switch default shell to zsh, execute:
-# chsh -s $(which zsh)
+chsh -s $(which zsh)
+
+# git lg alias
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"

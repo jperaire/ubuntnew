@@ -22,7 +22,7 @@ mkdir -p ${HOME}/.dropbox-mit
 # dropbox start -i
 
 # Copy start scripts to .local/bin.
-sudo cp ./scripts/start* /home/wng/.local/bin
+sudo cp ./scripts/start* /home/jperaire/.local/bin
 
 # Run the start scrips to finish the dropbox configuration!
 

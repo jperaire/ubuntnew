@@ -89,3 +89,5 @@ alias tl="trash-list"
 
 # Source local install folder.
 source ${HOME}/.local/env.sh
+
+alias emacs="emacs -nw"
