@@ -51,6 +51,7 @@ sudo apt-get install -y gnome-system-monitor
 sudo apt-get install -y vlc xubuntu-restricted-extras libavcodec-extra
 sudo apt-get install -y transmision
 sudo apt-get install -y cmake cmake-curses-gui
+sudo apt-get install -y cppcheck
 sudo apt-get install -y libhdf5-dev hdf5-tools hdf5-helpers h5utils
 sudo apt-get install -y liblz4-dev
 sudo apt-get install -y openssh-client openssh-server
