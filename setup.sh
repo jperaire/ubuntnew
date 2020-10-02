@@ -75,7 +75,7 @@ sudo apt-get install -y python-pip
 sudo pip install virtualenv
 sudo pip install virtualenvwrapper
 sudo apt-get install -y python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
-sudo pip install pylint cpplint
+sudo pip install pylint cpplint cpplint_junit
 
 # Load monitor.
 sudo apt-get install -y indicator-multiload
